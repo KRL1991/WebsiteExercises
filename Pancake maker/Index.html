@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Pancake maker</title>
+
+<link rel = "stylesheet" type="text/css" href="Style.css">
+
+</head>
+<body>
+
+<h1>Pancake Maker</h1>
+<p>Welcome to pancake maker! <br>
+    A handy tool for figuring out how many ingredients <br> 
+    You need to make the desired number of portions
+
+</p>
+
+    <p>
+        How many portions do you want to make?
+    </p>
+
+    <script 
+    
+    src="Script.js" type="text/javascript">
+    </script>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>
+
+    <form>
+
+        <label for="Number of portions">Number of Portions:</label><br>
+        <input type="text" id="Portions" name="Portions" placeholder="Number of Portions..." title="Number of Portions"><br>
+    
+    </form>
+
+    <button onclick="calculateAmount()">How many ingredients do I need?</button>
+
+    <form>
+        All ingredients besides eggs are in grams<br><br>
+
+
+        <label for="Flour">Flour:</label><br>
+        <input type="text" id="Flour" name="Flour" placeholder="Amount of Flour..." title="Amount of Flour"><br>
+
+        <label for="Milk">Milk:</label><br>
+        <input type="text" id="Milk" name="Milk" placeholder="Amount of Milk..." title="Amount of Milk"><br>
+       
+        <label for="Eggs">Eggs:</label><br>
+        <input type="text" id="Eggs" name="Eggs" placeholder="Amount of Eggs..." title="Amount of Eggs"><br>
+
+        <label for="Butter">Butter:</label><br>
+        <input type="text" id="Butter" name="Butter" placeholder="Amount of Butter..." title="Amount of Butter"><br>
+
+        <label for="Salt">Salt:</label><br>
+        <input type="text" id="Salt" name="Salt" placeholder="Amount of Salt..." title="Amount of Salt"><br>
+
+      </form>
+
+      <img src="download.jpg" alt="">
+
+</body>
+</html>
