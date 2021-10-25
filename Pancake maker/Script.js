@@ -7,12 +7,11 @@ let inputPortions = document.getElementById("Portions").value;
 //alert(inputPortions);
 
 
-
-var flour = document.getElementById("Flour").innerHTML = 150 * inputPortions;
-var eggs = document.getElementById("Eggs").innerHTML = 3 * inputPortions;
-var milk = document.getElementById("Milk").innerHTML = 400 * inputPortions;
-var butter = document.getElementById("Butter").innerHTML = 50 * inputPortions;
-var salt = document.getElementById("Salt").innerHTML = 4 *inputPortions;
+document.getElementById("Flour").innerHTML = 150 * inputPortions;
+document.getElementById("Eggs").innerHTML = 3 * inputPortions;
+document.getElementById("Milk").innerHTML = 400 * inputPortions;
+document.getElementById("Butter").innerHTML = 50 * inputPortions;
+document.getElementById("Salt").innerHTML = 4 *inputPortions;
 
 
 
